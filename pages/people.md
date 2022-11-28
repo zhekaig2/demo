@@ -13,7 +13,7 @@ permalink           : "/people/"
 -----
 
 <figure class="third">
-    <img src="{{ site.url }}/images/avatar.jpg" alt="">
+   <img class="t60" src="{{ site.urlimg }}avatar.jpg" alt="">
 </figure>
 
 #### Prof. Yi-Xin Liu
