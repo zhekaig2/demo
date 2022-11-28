@@ -5,7 +5,7 @@ title               : "People"
 subheadline         : "A Step-by-Step Guide"
 teaser              : "This step-by-step guide helps you to customize Feeling Responsive to your needs."
 header:
-   image_fullwidth  : "uiuc.jpg"
+   image_fullwidth  : "header-bus.jpg"
 permalink           : "/people/"
 ---
 1. Open `_config.yml` and work it through, it's well documented.
