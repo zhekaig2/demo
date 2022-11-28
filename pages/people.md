@@ -1,25 +1,27 @@
 ---
-layout              : page
-show_meta           : false
-title               : "People"
-subheadline         : "A Step-by-Step Guide"
-teaser              : "This step-by-step guide helps you to customize Feeling Responsive to your needs."
-header:
-   image_fullwidth  : "header-bus.jpg"
-permalink           : "/people/"
+layout: default
+title: People
 ---
-1. Open `_config.yml` and work it through, it's well documented.
-1. Add your own `logo.png` to `/assets/img/`.
-1. Add your own social media links and open `_data/socialmedia.yml`.
-1. Open `_sass/_01_settings_colors.scss` and adjust the the colors to your taste.
-1. Customize your navigation and open `_data/navigation.yml`.
-1. Translate this theme and open `_data/language.yml`.
-1. Change the links in the footer and open `_data/services.yml` and `_data/network.yml`.
-1. Open `_data/authors.yml` and edit author information and set default author in `config.yml`.
-1. Make it yours and add your own content.
-1. [Read the documentation][1] to check out all features of *Feeling Responsive*.
+<div class="people">
+<div class="jumbotron">
 
-<a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the documentation for all the tricks ›</a>
+<h1>Our research group</h1>
 
+</div>
 
- [1]: {{ site.url }}{{ site.baseurl }}/documentation/
+	{% include group-members.html %}
+	
+	<h3>Older group photos:
+	<a href="{{ site.baseurl }}/img/group-photo-large-1.jpg">[1]</a>
+	<a href="{{ site.baseurl }}/img/2014group2.jpg">[2]</a>
+	<a href="{{ site.baseurl }}/img/group-photo-2011.jpg">[3]</a> 
+	<a href="{{ site.baseurl }}/tracks/">[4]</a>
+	<a href="{{ site.baseurl }}/img/group-photo-simpsons.jpg">[5]</a> 
+	<a href="{{ site.baseurl }}/img/group-photo-alma-mater.jpg">[6]</a></h3>
+
+	<div name="name="previous-group-members"></div>	
+	<h1 class="category-title">Previous group members</h1>
+	
+	{% include previous-group-members.html %}
+
+</div>
