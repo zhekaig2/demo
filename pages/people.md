@@ -15,7 +15,7 @@ permalink           : "/getting-started/"
 
 </div>
 
-	{% include group-members.html %}
+	{% include member.html %}
 	
 	<h3>Older group photos:
 	<a href="{{ site.baseurl }}/img/group-photo-large-1.jpg">[1]</a>
