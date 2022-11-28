@@ -1,13 +1,13 @@
-- title: Start
+- title: "Home"
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
+- title: "People"
+  url: "/people/"
   side: left
 
-- title: "Templates"
-  url: "/design/"
+- title: "Publication"
+  url: "/publication/"
   side: left
   dropdown:
   - title: "Grid & Colors"
@@ -31,8 +31,8 @@
   - title: "Portfolio"
     url: "/design/portfolio/"
 
-- title: "Header Styles"
-  url: "/headers/"
+- title: "Research"
+  url: "/research/"
   side: left
   dropdown:
   - title: "Header with Full-Width-Image"
@@ -50,8 +50,8 @@
   - title: "No Header but Image"
     url: "/design/no-header-but-image/"
 
-- title: Documentation
-  url: "/documentation/"
+- title: "Resources"
+  url: "/resources/"
   side: left
   dropdown:
   - title: "Changelog"
@@ -65,10 +65,6 @@
   dropdown:
   - title: "Blog Archive"
     url: "/blog/archive/"
-
-- title: "Search"
-  url: "/search/"
-  side: right
 
 - title: "Contact"
   url: "/contact/"
