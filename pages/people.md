@@ -12,9 +12,7 @@ permalink           : "/people/"
 ## PI
 -----
 
-<figure class="third">
-   <img src="{{ site.urlimg }} avatar.jpg" alt="">
-</figure>
+<img class="t60" src="{{ site.urlimg }}avatar.jpg" alt="">
 
 #### Prof. Yi-Xin Liu
 Dr. Yi-Xin Liu is currently an associated professor at Fudan University. See his biography [here]({{ site.url }}/about/).
